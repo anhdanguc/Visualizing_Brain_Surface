@@ -7,9 +7,11 @@ This package provides two visualization options:
 2.	Visualize a desired metric for each region in a brain parcellation (see Fig 2)
 
 
-![Figure 1: Visualizing 100 regions from ICA parcellation.](selected_regions.png)
+![](selected_regions.png)
+*Figure 1: Visualizing 100 regions from ICA parcellation.*
 
-![Figure 2: Visualizing multipole membership values for all regions in ICA parcellation.](all_regions.png)
+![](all_regions.png)
+*Figure 2: Visualizing multipole membership values for all regions in ICA parcellation.*
 
 ## Requirements
 
@@ -49,4 +51,5 @@ Software: Workbench Command [2] that can be called using *$wb_command*
 ## References
 
 [1] Human Connectome Project. https://www.humanconnectome.org
+
 [2] Workbench. https://www.humanconnectome.org/software/workbench-command
