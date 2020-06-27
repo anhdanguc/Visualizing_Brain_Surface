@@ -32,7 +32,7 @@ Input:
 
 ## Change the parcellation
 
-The default parcellation consists of 100 brain regions. To change it, the user needs to replace the contents of two files *standard.dlabel.nii* and *standard.dscalar.nii* in the scene_files folder with the those of the new parcellation.
+The default parcellation consists of 100 brain regions. To change it, the user needs to replace the contents of two files *standard.dlabel.nii* and *standard.dscalar.nii* in the *scene_files* folder with the those of the new parcellation.
 
 ## References
 
