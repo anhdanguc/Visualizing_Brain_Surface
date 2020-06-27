@@ -4,6 +4,8 @@ This package provides the visualization of a brain surface using fMRI data of a 
 
 - Selected brain regions are colored
 
+![](selected_regions.png)
+
 - All brain regions are colored according to their given values
 
 ![](all_regions.png)
