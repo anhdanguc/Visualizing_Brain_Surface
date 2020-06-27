@@ -32,9 +32,7 @@ Software: Workbench Command [1] that can be called using *$wb_command*
          Mode 1: to highlight the regions of indices 2, 39, 45, the content of **input_file** looks like:
          
                   2
-                  
-                  39
-                  
+                  39                  
                   45
                   
          Mode 2: for a parcellation with n regions, the *input_file* shall consist of n rows only, in which row i represents the value of region i.
