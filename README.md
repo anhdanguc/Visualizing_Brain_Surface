@@ -21,11 +21,11 @@ Software: Workbench Command [1] that can be called using *$wb_command*
 
    How to run:
    
-    ```
-    $chmod +x plotSurface.sh
+   ```
+   $chmod +x plotSurface.sh
 
-    $./plotSurface.sh [input_file] [output_file] [img_width] [img_height]
-    ```
+   $./plotSurface.sh [input_file] [output_file] [img_width] [img_height]
+   ```
 
    Input:
    - **input_file** (optional): the text file (.txt) that contains the index of each region to be highlighted, each index is on a separate row. Users can either provide the path to the new input file or changing the content of the file region.txt and not using this parameter.
