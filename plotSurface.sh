@@ -4,18 +4,18 @@
 # the file containing the regions to plot
 region_infile=${1:-region.txt}
 
-img_name=${3:-brain_image}
-img_width=${4:-900}
-img_height=${5:-700}
+# the dlabel file of the parcellation
+dlabel_infile=$2
+
+# scene file that specifies the view of the surface image
+scene_file=$3
+
+img_name=${4:-brain_image}
+img_width=${5:-900}
+img_height=${6:-700}
 
 # path to the folder containing dlabel file of the parcellation
 src_path=scene_files
-
-# scene file that specifies the view of the surface image
-scene_file=scene_files/template.scene
-
-# the dlabel file of the parcellation
-dlabel_infile=${src_path}/standard.dlabel.nii
 
 # the name of the revised dlabel file
 dlabel_outfile=${src_path}/region.dlabel.nii
