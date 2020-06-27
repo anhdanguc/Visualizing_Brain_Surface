@@ -30,6 +30,10 @@ Input:
 - **img_width** (optional): the width of the output image in pixel. Default: 900
 - **img_height** (optional): the height of the output image in pixel. Default: 700
 
+## Change the parcellation
+
+The default parcellation consists of 100 brain regions. To change it, the user needs to replace the contents of two files *standard.dlabel.nii* and *standard.dscalar.nii* in the scene_files folder with the those of the new parcellation.
+
 ## References
 
 [1] Workbench. https://www.humanconnectome.org/software/workbench-command
