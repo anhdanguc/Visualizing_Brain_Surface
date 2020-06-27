@@ -20,6 +20,7 @@ Software: Workbench Command [1] that can be called using $wb_command
 **1. Mode 1**
 
    How to run:
+   
     ```bash
     chmod +x plotSurface.sh
 
