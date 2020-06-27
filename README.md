@@ -1,9 +1,13 @@
 # VISUALIZATION OF BRAIN SURFACE USING fMRI DATA
 
 This package provides the visualization of a brain surface using fMRI data of a specific parcellation. The brain surface can be visualized in two configurations:
+
 - Selected brain regions are colored
+
 - All brain regions are colored according to their given values
+
 ![](all_regions.png)
+
 # Requirements:
 
 Operating systems: Linux, OS X
