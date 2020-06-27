@@ -30,9 +30,13 @@ Software: Workbench Command [1] that can be called using *$wb_command*
    Input:
    - **input_file** (optional): the text file (.txt) that contains the index of each region to be highlighted (mode 1) or the value of each region (mode 2). Users can either provide the path to the new input file or changing the content of the file region.txt and not using this parameter.
          Mode 1: to highlight the regions of indices 2, 39, 45, the content of **input_file** looks like:
+         
                   2
+                  
                   39
+                  
                   45
+                  
          Mode 2: for a parcellation with n regions, the *input_file* shall consist of n rows only, in which row i represents the value of region i.
    - **output_file** (optional): the name (with path) of the output image. When this parameter is not provided, the output image will be saved as brain_image.txt in ../
    - **img_width** (optional): the width of the output image in pixel. Default: 900
