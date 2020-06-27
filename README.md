@@ -15,38 +15,36 @@ This package provides two visualization options:
 
 Operating systems: Linux, OS X
 
-Software: Workbench Command [1] that can be called using *$wb_command*
+Software: Workbench Command [2] that can be called using *$wb_command*
 
 ## Usage
-**1. Mode 1**
+**1. Option 1**
 
    How to run:
    
    ```
    $chmod +x plotSurface.sh
 
-   $./plotSurface.sh [input_file] [output_file] [img_width] [img_height]
+   $./plotSurface.sh input_file dlabel_file scene_file [output_file] [img_width] [img_height]
    ```
 
    Input:
-   - **input_file** (optional): the text file (.txt) that contains the index of each region to be highlighted (mode 1) or the value of each region (mode 2). Users can either provide the path to the new input file or changing the content of the file region.txt and not using this parameter.
+   - **input_file** : the text file (.txt) that contains the index of each region to be highlighted (option 1) or the value of each region (option 2).
          
-         Mode 1: to highlight the regions of indices 2, 39, 45, the content of **input_file** shall consist of the following 3 lines:
+         Option 1: to highlight the regions of indices 2, 39, 45, the content of **input_file** shall consist of the following 3 lines:
          
                   2
                   39                  
                   45
                   
-         Mode 2: for a parcellation with n regions, the *input_file* shall consist of n rows only, in which row i represents the value of region i.
+         Option 2: for a parcellation with n regions, the *input_file* shall consist of n rows only, in which row i represents the value of region i.
+   - **dlabel_file** : the dlabel file (*.dlabel.nii*) of the parcellation
+   - **scene_file** : the scene file that specifies the background input files (*.surf.gii* for left and right hemispheres) and the view angle of the image
    - **output_file** (optional): the name (with path) of the output image. When this parameter is not provided, the output image will be saved as brain_image.txt in ../
    - **img_width** (optional): the width of the output image in pixel. Default: 900
    - **img_height** (optional): the height of the output image in pixel. Default: 700
 
-**2. Mode 2**
-
-## Change the parcellation
-
-The default parcellation consists of 100 brain regions. To change it, the user needs to replace the contents of two files *standard.dlabel.nii* and *standard.dscalar.nii* in the *scene_files* folder with the those of the new parcellation.
+**2. Option 2**
 
 ## References
 
