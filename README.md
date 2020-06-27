@@ -10,14 +10,15 @@ This package provides the visualization of a brain surface using fMRI data of a 
 
 ![](all_regions.png)
 
-# Requirements:
+## Requirements
 
 Operating systems: Linux, OS X
 
 Software: Workbench Command [1] that can be called using $wb_command
 
 ## Usage
-- Mode 1:
+**1. Mode 1**
+
     How to run:
     ```bash
     chmod +x plotSurface.sh
@@ -30,6 +31,8 @@ Software: Workbench Command [1] that can be called using $wb_command
     - **output_file** (optional): the name (with path) of the output image. When this parameter is not provided, the output image will be saved as brain_image.txt in ../
     - **img_width** (optional): the width of the output image in pixel. Default: 900
     - **img_height** (optional): the height of the output image in pixel. Default: 700
+
+**2. Mode 2**
 
 ## Change the parcellation
 
