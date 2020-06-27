@@ -8,9 +8,11 @@ This package provides two visualization options:
 
 
 ![](selected_regions.png)
+
 *Figure 1: Visualizing 100 regions from ICA parcellation.*
 
 ![](all_regions.png)
+
 *Figure 2: Visualizing multipole membership values for all regions in ICA parcellation.*
 
 ## Requirements
