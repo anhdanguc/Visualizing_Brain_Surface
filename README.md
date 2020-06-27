@@ -21,10 +21,10 @@ Software: Workbench Command [1] that can be called using $wb_command
 
    How to run:
    
-    ```bash
-    chmod +x plotSurface.sh
+    ```
+    $chmod +x plotSurface.sh
 
-    ./plotSurface.sh [input_file] [output_file] [img_width] [img_height]
+    $./plotSurface.sh [input_file] [output_file] [img_width] [img_height]
     ```
 
    Input:
