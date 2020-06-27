@@ -14,7 +14,7 @@ This package provides the visualization of a brain surface using fMRI data of a 
 
 Operating systems: Linux, OS X
 
-Software: Workbench Command [1] that can be called using $wb_command
+Software: Workbench Command [1] that can be called using *$wb_command*
 
 ## Usage
 **1. Mode 1**
