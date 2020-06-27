@@ -1,14 +1,15 @@
-# VISUALIZATION OF BRAIN SURFACE USING fMRI DATA
+# VISUALIZATION OF BRAIN SURFACE DATA
 
-This package provides the visualization of a brain surface using fMRI data of a specific parcellation. The brain surface can be visualized in two modes:
+This package provides the functionality of visualizing data on a standard brain surface. This package leverages brain visualization functionality available in the connectome workbench made available as part of the Human Connectome Project [1]. 
 
-- Mode 1: selected brain regions are colored
+This package provides two visualization options:
+1.	Visualize selected regions of interest on the brain surface (see Fig 1)
+2.	Visualize a desired metric for each region in a brain parcellation (see Fig 2)
 
-![](selected_regions.png)
 
-- Mode 2: all brain regions are colored according to their given values
+![Figure 1: Visualizing 100 regions from ICA parcellation.](selected_regions.png)
 
-![](all_regions.png)
+![Figure 2: Visualizing multipole membership values for all regions in ICA parcellation.](all_regions.png)
 
 ## Requirements
 
@@ -49,4 +50,5 @@ The default parcellation consists of 100 brain regions. To change it, the user n
 
 ## References
 
-[1] Workbench. https://www.humanconnectome.org/software/workbench-command
+[1] Human Connectome Project. https://www.humanconnectome.org
+[2] Workbench. https://www.humanconnectome.org/software/workbench-command
