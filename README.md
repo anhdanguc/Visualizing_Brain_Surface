@@ -74,6 +74,7 @@ Software:
    - Image file named *brain_image.png* in the current folder
    
 **3. Option 3**
+
    How to run
    
    ```
