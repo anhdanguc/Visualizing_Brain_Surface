@@ -62,13 +62,14 @@ Software:
    How to run
    
    ```
-   $julia plotRegionValues.jl val_file dlabel_file dscalar_file 
+   $julia plotRegionValues.jl val_file dlabel_file dscalar_file scene_file
    ```
    
    Input:
    - **val_file** : text file (*.txt*) that has on each row the pair of region index and value separated by ',' 
    - **dlabel_file** : the standard dlabel file (*.dlabel.nii*) of the parcellation 
    - **dscalar_file** : the standard dscalar file (*.dscalar.nii*) of the parcellation
+   - **scene_file**: the *.scene* file for generating the image
    
    Output:
    - Image file named *brain_image.png* in the current folder
@@ -78,13 +79,14 @@ Software:
    How to run
    
    ```
-   $julia plotVoxelValues.jl val_file dlabel_file dscalar_file 
+   $julia plotVoxelValues.jl val_file dlabel_file dscalar_file scene_file
    ```
    
    Input:
    - **val_file** : text file (*.txt*) that has on each row the pair of voxel index and value separated by ',' 
    - **dlabel_file** : the standard dlabel file (*.dlabel.nii*) of the parcellation 
    - **dscalar_file** : the standard dscalar file (*.dscalar.nii*) of the parcellation
+   - **scene_file**: the *.scene* file for generating the image
    
    Output:
    - Image file named *brain_image.png* in the current folder
