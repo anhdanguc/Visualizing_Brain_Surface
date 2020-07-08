@@ -69,7 +69,7 @@ Software:
    - **val_file** : text file (*.txt*) that has on each row the pair of region index and value separated by ',' 
    - **dlabel_file** : the standard dlabel file (*.dlabel.nii*) of the parcellation 
    - **dscalar_file** : the standard dscalar file (*.dscalar.nii*) of the parcellation
-   - **scene_file**: the *.scene* file for generating the image
+   - **scene_file** : the scene file (*.scene*) that specifies the background input files (*.surf.gii* for left and right hemispheres) and the view angle of the image
    
    Output:
    - Image file named *brain_image.png* in the current folder
@@ -86,7 +86,7 @@ Software:
    - **val_file** : text file (*.txt*) that has on each row the pair of voxel index and value separated by ',' 
    - **dlabel_file** : the standard dlabel file (*.dlabel.nii*) of the parcellation 
    - **dscalar_file** : the standard dscalar file (*.dscalar.nii*) of the parcellation
-   - **scene_file**: the *.scene* file for generating the image
+   - **scene_file** : the scene file (*.scene*) that specifies the background input files (*.surf.gii* for left and right hemispheres) and the view angle of the image
    
    Output:
    - Image file named *brain_image.png* in the current folder
@@ -101,7 +101,7 @@ Software:
    
    Input:
    - **input_file** : input dscalar file (*.dscalar.nii*)
-   - **scene_file** : the scene file that specifies the background input files (*.surf.gii* for left and right hemispheres) and the view angle of the image
+   - **scene_file** : the scene file (*.scene*) that specifies the background input files (*.surf.gii* for left and right hemispheres) and the view angle of the image
    - **output_file** (optional): the name (with path) of the output image. When this parameter is not provided, the output image will be saved as brain_image.png in ../
    - **img_width** (optional): the width of the output image in pixel. Default: 900
    - **img_height** (optional): the height of the output image in pixel. Default: 700
