@@ -46,17 +46,17 @@ def create_sur_vals(region_vals_infile, dlabel_infile, dscalar_infile, outfile):
     write_to_cifti(dscalar_infile, newSurfData, outfile)
 """
 
-function createDscalar(region_vals_infile, dlabel_infile, dscalar_infile, toplot=true, outfile="dscalar_out.dscalar.nii")
+function createDscalar(region_vals_infile, dlabel_infile, dscalar_infile, scene_file, toplot=true, outfile="dscalar_out.dscalar.nii")
     py"create_sur_vals"(region_vals_infile, dlabel_infile, dscalar_infile, outfile)
 
     # plot image
     if toplot
-        run(`./plotDscalar.sh`)
+        run(`./plotDscalar.sh $outfile $scene_file`)
     end
 
     return nothing
 end
 
-if len(ARGS) > 0
-    createDscalar(ARGS[1], ARGS[2], ARGS[3])
+if length(ARGS) > 0
+    createDscalar(ARGS[1], ARGS[2], ARGS[3], ARGS[4])
 end
