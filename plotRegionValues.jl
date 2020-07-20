@@ -1,5 +1,5 @@
-# USAGE
-#
+# SAMPLE USAGE
+# Julia plotRegionValues.jl testregionvalues.txt scene_files/standard.dlabel.nii scene_files/melodic_IC.dscalar.nii scene_files/template_dscalar.scene
 
 
 using PyCall

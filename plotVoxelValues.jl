@@ -1,6 +1,5 @@
-# USAGE
-#
-
+# SAMPLE USAGE
+# Julia plotVoxelValues.jl testVoxel.txt scene_files/standard.dlabel.nii scene_files/melodic_IC.dscalar.nii scene_files/template_dscalar.scene
 
 using PyCall
 py"""
@@ -35,7 +34,7 @@ def create_sur_vals(region_vals_infile, dlabel_infile, dscalar_infile, outfile):
         reader = csv.reader(f)
         for row in reader:
             # convert txt numbers into region, edge pairs
-            edgeValList.append(tuple(map(float, row)))
+            voxValList.append(tuple(map(float, row)))
 
     for (idx, val) in voxValList:
         # # go through each region label and set to edge value
