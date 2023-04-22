@@ -2,7 +2,7 @@
 
 This package provides the functionality of visualizing data on a standard brain surface. This package leverages brain visualization functionality available in the connectome workbench made available as part of the Human Connectome Project [1]. 
 
-This package provides two visualization options:
+This package provides 4 visualization options:
 1.	Visualize selected regions of interest on the brain surface (see Fig 1)
 2.	Visualize a desired metric for each region in a brain parcellation (see Fig 2)
 3. Visualize a desired metric for each voxel in a brain parcellation
